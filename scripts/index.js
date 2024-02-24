@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
         let floorCount = parseInt(floorCountEl.value);
         let liftCount = parseInt(liftCountEl.value);
 
-        if (isNaN(floorCount) || floorCount <= 0 || !Number.isInteger(floorCount)) {
+        if (isNaN(floorCount) || floorCount <= 1 || !Number.isInteger(floorCount)) {
             floorsError.style.display = 'block';
             generateButton.disabled = true;
             return -1;
