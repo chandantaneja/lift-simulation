@@ -1,0 +1,37 @@
+.floor {
+  height: 96px;
+  margin-right: 20px;
+  border-top: 2px solid #c50505;
+  border-bottom: 2px solid #f0e6d8;
+  background-color: #f0e6d8;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.floor-controls {
+  height: 80px;
+  width: 70px;
+  border-radius: 8px; 
+  display: flex;
+}
+
+.floor-number {
+    margin-right: 10px;
+}
+
+.floor-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: #4caf50;
+  border: 1px solid #83d485; 
+}
+
+.floor-buttons-wrapper {
+  margin: 10px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

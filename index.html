@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lift Simulation - Chandan Taneja - RDS</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../style/index.css">
+    <link rel="stylesheet" href="../style/floors.css">
+</head>
+
+<body>
+    <div id="lifs-floor-input-container">
+        <label for="floorsInput">Number of floors:</label>
+        <input id="floorsInput" type="number" min="1" required>
+        <span id="floorsError" style="color: red; display: none;">Please enter a valid number (minimum 1).</span>
+    
+        <label for="liftsInput">Number of lifts:</label>
+        <input id="liftsInput" type="number" min="1" required>
+        <span id="liftsError" style="color: red; display: none;">Please enter a valid number (minimum 1).</span>
+    
+        <button id="generate">Generate</button>
+    </div>
+
+    <br />
+    <div class="lifts-main-wrapper">
+        <div id='lifts-container'></div>
+    </div>
+    <br />
+    <script src="../scripts/index.js" type="module">
+    </script>
+</body>
+
+</html>
